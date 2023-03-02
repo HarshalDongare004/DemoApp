@@ -10,6 +10,10 @@ public class DemoApp {
 		String name = "sachin";
 		int count = name.toUpperCase().length();
 		System.out.println("The lenght of string is "+ count);
+	
+		StringBuffer sb = new StringBuffer("Sachin");
+		int length = sb.append("tendulkar").reverse().length();
+		System.out.println(length);
 	}
 
 }
